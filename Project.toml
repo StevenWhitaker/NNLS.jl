@@ -5,3 +5,15 @@ uuid = "679bf57e-4d52-5e00-96eb-bf45b5a2faee"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 MathProgBase = "fdba3010-5040-5b88-9595-932c9decdf73"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[extras]
+ECOS = "e2685f51-7e38-5353-a97d-a921fd2c8199"
+FixedPointNumbers = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "ECOS", "FixedPointNumbers", "JuMP", "Libdl", "PyCall", "Random"]

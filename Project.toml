@@ -1,5 +1,7 @@
 name = "NNLS"
 uuid = "679bf57e-4d52-5e00-96eb-bf45b5a2faee"
+authors = ["Robin Deits <robin.deits@gmail.com>"]
+version = "0.0.1"
 
 [deps]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
